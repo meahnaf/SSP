@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+    
+
+}
+h1{
+    
+    color: aquamarine;
+    font-size: 3rem;
+}
+h2{
+    color: #292e60;
+}
+#pic{
+   border: 5px solid palegreen;
+   width: 100%;
+}
+div{
+    
+    font-family: "Libre Baskerville";
+    text-align: center;
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 25%;
+
+}
+ 
