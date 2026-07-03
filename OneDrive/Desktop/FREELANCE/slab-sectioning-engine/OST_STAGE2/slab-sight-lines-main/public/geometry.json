@@ -1,0 +1,442 @@
+{
+  "metadata": {
+    "filename": "sample-slab.dxf",
+    "processed_at": "2026-07-03T15:30:00Z",
+    "bounds": {
+      "minX": -1000.0,
+      "minY": -1000.0,
+      "maxX": 43000.0,
+      "maxY": 25000.0
+    },
+    "units": "mm",
+    "version": "1.0"
+  },
+  "segments": [
+    {
+      "id": "seg-1",
+      "x1": 0.0,
+      "y1": 0.0,
+      "x2": 42000.0,
+      "y2": 0.0,
+      "layer": "perimeter",
+      "type": "LINE",
+      "handle": "H001",
+      "source_type": "LINE"
+    },
+    {
+      "id": "seg-2",
+      "x1": 42000.0,
+      "y1": 0.0,
+      "x2": 42000.0,
+      "y2": 18000.0,
+      "layer": "perimeter",
+      "type": "LINE",
+      "handle": "H002",
+      "source_type": "LINE"
+    },
+    {
+      "id": "seg-3",
+      "x1": 42000.0,
+      "y1": 18000.0,
+      "x2": 30000.0,
+      "y2": 18000.0,
+      "layer": "perimeter",
+      "type": "LINE",
+      "handle": "H003",
+      "source_type": "LINE"
+    },
+    {
+      "id": "seg-4",
+      "x1": 30000.0,
+      "y1": 18000.0,
+      "x2": 30000.0,
+      "y2": 24000.0,
+      "layer": "perimeter",
+      "type": "LINE",
+      "handle": "H004",
+      "source_type": "LINE"
+    },
+    {
+      "id": "seg-5",
+      "x1": 30000.0,
+      "y1": 24000.0,
+      "x2": 12000.0,
+      "y2": 24000.0,
+      "layer": "perimeter",
+      "type": "LINE",
+      "handle": "H005",
+      "source_type": "LINE"
+    },
+    {
+      "id": "seg-6",
+      "x1": 12000.0,
+      "y1": 24000.0,
+      "x2": 12000.0,
+      "y2": 18000.0,
+      "layer": "perimeter",
+      "type": "LINE",
+      "handle": "H006",
+      "source_type": "LINE"
+    },
+    {
+      "id": "seg-7",
+      "x1": 12000.0,
+      "y1": 18000.0,
+      "x2": 0.0,
+      "y2": 18000.0,
+      "layer": "perimeter",
+      "type": "LINE",
+      "handle": "H007",
+      "source_type": "LINE"
+    },
+    {
+      "id": "seg-8",
+      "x1": 0.0,
+      "y1": 18000.0,
+      "x2": 0.0,
+      "y2": 0.0,
+      "layer": "perimeter",
+      "type": "LINE",
+      "handle": "H008",
+      "source_type": "LINE"
+    },
+    {
+      "id": "seg-9",
+      "x1": 6000.0,
+      "y1": 4000.0,
+      "x2": 36000.0,
+      "y2": 4000.0,
+      "layer": "original",
+      "type": "LINE",
+      "handle": "H009",
+      "source_type": "LINE"
+    },
+    {
+      "id": "seg-10",
+      "x1": 6000.0,
+      "y1": 14000.0,
+      "x2": 36000.0,
+      "y2": 14000.0,
+      "layer": "original",
+      "type": "LINE",
+      "handle": "H010",
+      "source_type": "LINE"
+    }
+  ],
+  "labels": [
+    {
+      "id": "label-1",
+      "x": 1200.0,
+      "y": 9600.0,
+      "text": "DCJ-1",
+      "layer": "dcj",
+      "matched_segment_id": "chain-1"
+    },
+    {
+      "id": "label-2",
+      "x": 21400.0,
+      "y": 22800.0,
+      "text": "DCJ-2",
+      "layer": "dcj",
+      "matched_segment_id": "chain-2"
+    },
+    {
+      "id": "label-3",
+      "x": 7200.0,
+      "y": 600.0,
+      "text": "RSCJ-1",
+      "layer": "rscj",
+      "matched_segment_id": "chain-3"
+    },
+    {
+      "id": "label-4",
+      "x": 14200.0,
+      "y": 600.0,
+      "text": "RSCJ-2",
+      "layer": "rscj",
+      "matched_segment_id": "chain-4"
+    },
+    {
+      "id": "label-5",
+      "x": 28200.0,
+      "y": 600.0,
+      "text": "RSCJ-3",
+      "layer": "rscj",
+      "matched_segment_id": "chain-5"
+    }
+  ],
+  "chains": [
+    {
+      "chain_id": 1,
+      "boundary_id": 1,
+      "is_primary": true,
+      "segments": [
+        {
+          "x1": 0.0,
+          "y1": 9000.0,
+          "x2": 42000.0,
+          "y2": 9000.0
+        }
+      ],
+      "start_point": [0.0, 9000.0],
+      "end_point": [42000.0, 9000.0],
+      "total_length": 42000.0,
+      "branch_point": null
+    },
+    {
+      "chain_id": 2,
+      "boundary_id": 2,
+      "is_primary": true,
+      "segments": [
+        {
+          "x1": 21000.0,
+          "y1": 0.0,
+          "x2": 21000.0,
+          "y2": 24000.0
+        }
+      ],
+      "start_point": [21000.0, 0.0],
+      "end_point": [21000.0, 24000.0],
+      "total_length": 24000.0,
+      "branch_point": null
+    },
+    {
+      "chain_id": 3,
+      "boundary_id": 3,
+      "is_primary": false,
+      "segments": [
+        {
+          "x1": 7000.0,
+          "y1": 0.0,
+          "x2": 7000.0,
+          "y2": 9000.0
+        }
+      ],
+      "start_point": [7000.0, 0.0],
+      "end_point": [7000.0, 9000.0],
+      "total_length": 9000.0,
+      "branch_point": [7000.0, 9000.0]
+    },
+    {
+      "chain_id": 4,
+      "boundary_id": 3,
+      "is_primary": false,
+      "segments": [
+        {
+          "x1": 14000.0,
+          "y1": 0.0,
+          "x2": 14000.0,
+          "y2": 9000.0
+        }
+      ],
+      "start_point": [14000.0, 0.0],
+      "end_point": [14000.0, 9000.0],
+      "total_length": 9000.0,
+      "branch_point": [14000.0, 9000.0]
+    },
+    {
+      "chain_id": 5,
+      "boundary_id": 3,
+      "is_primary": false,
+      "segments": [
+        {
+          "x1": 28000.0,
+          "y1": 0.0,
+          "x2": 28000.0,
+          "y2": 9000.0
+        }
+      ],
+      "start_point": [28000.0, 0.0],
+      "end_point": [28000.0, 9000.0],
+      "total_length": 9000.0,
+      "branch_point": [28000.0, 9000.0]
+    }
+  ],
+  "graph": {
+    "nodes": [
+      {
+        "node_id": 1,
+        "x": 3500.0,
+        "y": 4500.0,
+        "node_type": "chain_endpoint",
+        "chain_ids": [1],
+        "edge_ids": [1]
+      },
+      {
+        "node_id": 2,
+        "x": 10500.0,
+        "y": 4500.0,
+        "node_type": "chain_intersection",
+        "chain_ids": [1, 3],
+        "edge_ids": [1, 2]
+      },
+      {
+        "node_id": 3,
+        "x": 17500.0,
+        "y": 4500.0,
+        "node_type": "chain_intersection",
+        "chain_ids": [1, 4],
+        "edge_ids": [2, 3]
+      },
+      {
+        "node_id": 4,
+        "x": 24500.0,
+        "y": 4500.0,
+        "node_type": "chain_intersection",
+        "chain_ids": [1, 5],
+        "edge_ids": [3, 4]
+      },
+      {
+        "node_id": 5,
+        "x": 31500.0,
+        "y": 4500.0,
+        "node_type": "chain_endpoint",
+        "chain_ids": [1],
+        "edge_ids": [4]
+      },
+      {
+        "node_id": 6,
+        "x": 21000.0,
+        "y": 0.0,
+        "node_type": "perimeter_intersection",
+        "chain_ids": [2],
+        "edge_ids": [5]
+      },
+      {
+        "node_id": 7,
+        "x": 21000.0,
+        "y": 24000.0,
+        "node_type": "perimeter_intersection",
+        "chain_ids": [2],
+        "edge_ids": [6]
+      }
+    ],
+    "edges": [
+      {
+        "edge_id": 1,
+        "start_node_id": 1,
+        "end_node_id": 2,
+        "chain_id": 1,
+        "start": [3500.0, 4500.0],
+        "end": [10500.0, 4500.0],
+        "length": 7000.0
+      },
+      {
+        "edge_id": 2,
+        "start_node_id": 2,
+        "end_node_id": 3,
+        "chain_id": 1,
+        "start": [10500.0, 4500.0],
+        "end": [17500.0, 4500.0],
+        "length": 7000.0
+      },
+      {
+        "edge_id": 3,
+        "start_node_id": 3,
+        "end_node_id": 4,
+        "chain_id": 1,
+        "start": [17500.0, 4500.0],
+        "end": [24500.0, 4500.0],
+        "length": 7000.0
+      },
+      {
+        "edge_id": 4,
+        "start_node_id": 4,
+        "end_node_id": 5,
+        "chain_id": 1,
+        "start": [24500.0, 4500.0],
+        "end": [31500.0, 4500.0],
+        "length": 7000.0
+      },
+      {
+        "edge_id": 5,
+        "start_node_id": 6,
+        "end_node_id": 2,
+        "chain_id": 3,
+        "start": [21000.0, 0.0],
+        "end": [7000.0, 9000.0],
+        "length": 15556.0
+      },
+      {
+        "edge_id": 6,
+        "start_node_id": 6,
+        "end_node_id": 7,
+        "chain_id": 2,
+        "start": [21000.0, 0.0],
+        "end": [21000.0, 24000.0],
+        "length": 24000.0
+      }
+    ]
+  },
+  "perimeter": {
+    "segments": [
+      {
+        "id": "perim-1",
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 42000.0,
+        "y2": 0.0
+      },
+      {
+        "id": "perim-2",
+        "x1": 42000.0,
+        "y1": 0.0,
+        "x2": 42000.0,
+        "y2": 18000.0
+      },
+      {
+        "id": "perim-3",
+        "x1": 42000.0,
+        "y1": 18000.0,
+        "x2": 30000.0,
+        "y2": 18000.0
+      },
+      {
+        "id": "perim-4",
+        "x1": 30000.0,
+        "y1": 18000.0,
+        "x2": 30000.0,
+        "y2": 24000.0
+      },
+      {
+        "id": "perim-5",
+        "x1": 30000.0,
+        "y1": 24000.0,
+        "x2": 12000.0,
+        "y2": 24000.0
+      },
+      {
+        "id": "perim-6",
+        "x1": 12000.0,
+        "y1": 24000.0,
+        "x2": 12000.0,
+        "y2": 18000.0
+      },
+      {
+        "id": "perim-7",
+        "x1": 12000.0,
+        "y1": 18000.0,
+        "x2": 0.0,
+        "y2": 18000.0
+      },
+      {
+        "id": "perim-8",
+        "x1": 0.0,
+        "y1": 18000.0,
+        "x2": 0.0,
+        "y2": 0.0
+      }
+    ],
+    "is_closed": true,
+    "total_length": 120000.0
+  },
+  "diagnostics": {
+    "total_segments": 10,
+    "total_labels": 5,
+    "total_chains": 5,
+    "primary_chains": 2,
+    "branch_chains": 3,
+    "total_nodes": 7,
+    "total_edges": 6
+  }
+}
